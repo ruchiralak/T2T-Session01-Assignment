@@ -14,7 +14,7 @@ When it should be used ?
 
 - When you need exactly one instance of a class that is shared globally.
 
-## 02.Factory Method Pattern
+## 02.Factory Pattern
 
 What is does ?
 
@@ -23,3 +23,28 @@ What is does ?
 When it should be used ? 
 
 - When object creation logic is complex or depends on input conditions.
+
+## 03.Builder Pattern
+
+What it does?
+
+- Separates the construction of a complex object from its representation.
+- Let you create different representations using the same construction process.
+- Supports step-by-step object creation and method chaining.
+
+When it should be used?
+
+- When an object has many optional parameters or requires multiple steps to construct.
+- When you want readable and maintainable code for creating complex objects.
+
+## 04.Prototype Pattern
+
+What it does?
+
+- Allows creating new objects by cloning an existing object instead of instantiating from scratch.
+- Useful when object creation is costly or complex.
+
+When it should be used?
+
+- When object creation is expensive or complex.
+- When you need many similar objects with small differences.
