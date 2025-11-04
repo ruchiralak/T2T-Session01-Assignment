@@ -48,3 +48,28 @@ When it should be used?
 
 - When object creation is expensive or complex.
 - When you need many similar objects with small differences.
+
+## 05.Abstract Factory Pattern
+
+what it does ?
+
+- Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+- Ensures that objects created by one factory are compatible and consistent in style or theme.
+
+When it should be used?
+
+- When a system needs to create multiple related objects that must be used together.
+- When you want to switch between product families easily without changing client code.
+- When enforcing consistency among products is important.
+
+## Bonus Challenge - Lazy Initialization
+
+What it does ?
+
+- It will only create a singleton instance untill it is actually needed
+
+when it should be used?
+
+- useful when the Singleton object is resource-intensive or when its creation involves complex initialization logic.
+
+
