@@ -36,7 +36,7 @@ class Document implements Cloneable{
     }
     @Override
     public String toString() {
-        return "Document{title='" + title + "', content='" + content + "'}";
+        return "Documents{title='" + title + "', content='" + content + "'}";
     }
 
 
