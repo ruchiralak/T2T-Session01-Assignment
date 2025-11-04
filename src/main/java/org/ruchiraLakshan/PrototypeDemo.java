@@ -1,8 +1,8 @@
 package org.ruchiraLakshan;
 
 class Document implements Cloneable{
-     private String title;
-     private String content;
+    private String title;
+    private String content;
 
     public Document(String title, String content) {
         this.title = title;
